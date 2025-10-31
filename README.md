@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://zimanie.github.io/blog-preview-card/)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -64,5 +64,6 @@ i would like to continue on this path and get better with it.
 
 - Frontend Mentor - [@Zimanie](https://www.frontendmentor.io/profile/Zimanie)
 - Twitter - [@yZimanie5e](https://www.twitter.com/Zimanie5)
+
 
 
