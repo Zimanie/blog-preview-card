@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-style: bolder;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/static/Figtree-Medium.ttf);
+    font-style: medium;
+}
+
+:root{
+    --primary-color: hsl(47, 88%, 63%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --grey900: hsl(0, 0%, 42%);
+    --grey950: hsl(0, 0%, 7%);
+    --paragraph-font: 16px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Figtree, Sans-serif;
+}
+
+.preview-card {
+    width: 350px;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    border: solid 1.5px black;
+    box-shadow: 9px 9px 4px black;
+}
+
+.preview-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning-btn {
+    padding: 5px 8px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.preview-card span {
+    font-weight: 600;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.preview-card h1 {
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.preview-card h1:hover {
+    color: var(--primary-color);
+}
+
+.preview-card h2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.preview-card p {
+    font-size: var(--paragraph-font);
+    font-weight: 100;
+    color: var(--grey900);
+}
+
+.profile-img {
+    width: 40px;
+}
+
+@media(max-width: 380px) {
+    .preview-card {
+        width: 270px;
+        gap: 10px;
+        height: 400px;
+    }
+    .preview-card span {
+        font-weight: 100;
+    }
+    .preview-card p {
+        font-size: 14px;
+    }
+
+}
